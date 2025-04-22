@@ -1,0 +1,125 @@
+.logo img {
+    max-width: 90px;
+}
+
+.hero-area-three .marquee-wrap.style-two {
+    opacity: 0.25;
+}
+
+.header-number {
+    margin-right: 35px;
+}
+
+.main-header.white-menu.fixed-header .header-upper {
+    background: #ec3d08;
+}
+
+.food-item .content .price {
+    width: 70px;
+    position: absolute;
+    right: 20px;
+}
+
+.name-desc {
+    width: 100%;
+}
+
+.food-item {
+    padding: 15px 20px 8px;
+}
+
+.food-item .image img {
+    border: 3px solid #ec3d08;
+}
+
+.food-category-area {
+    background: var(--lighter-color);
+}
+
+.testimonials-shapes .shape.two {
+    bottom: 15%;
+}
+
+.bgc-black .marquee-wrap .marquee-item i {
+    color: var(--primary-color);
+    -webkit-text-stroke-color: var(--primary-color);
+}
+
+.float-bob-y {
+    -webkit-animation-name: float-bob-y;
+    animation-name: float-bob-y;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.pulse-anim {
+    animation-name: elementor-animation-pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.gallery-item .gallery-content h5 {
+    color: #ec3d08;
+}
+
+@keyframes elementor-animation-pulse {
+	25% {
+		transform: scale(1.1);
+	}
+	75% {
+		transform: scale(0.9);
+	}
+}
+
+
+@-webkit-keyframes float-bob-y {
+	0% {
+	  -webkit-transform: translateY(-30px);
+	  transform: translateY(-30px);
+	}
+	50% {
+	  -webkit-transform: translateY(-10px);
+	  transform: translateY(-10px);
+	}
+	100% {
+	  -webkit-transform: translateY(-30px);
+	  transform: translateY(-30px);
+	}
+}
+
+  @keyframes float-bob-y {
+	0% {
+	  -webkit-transform: translateY(-30px);
+	  transform: translateY(-30px);
+	}
+	50% {
+	  -webkit-transform: translateY(-10px);
+	  transform: translateY(-10px);
+	}
+	100% {
+	  -webkit-transform: translateY(-30px);
+	  transform: translateY(-30px);
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+    .footer-links {
+        max-width: 440px;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .main-menu .mobile-logo {
+        max-width: 94px;
+    }
+}
+
+.main-menu .navbar-header .navbar-toggle {
+    margin-right: 35px;
+}
